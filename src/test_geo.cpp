@@ -17,7 +17,7 @@ int main(int argc, char** argv)
       return 1;
   } 
   std::ifstream t(argv[1]);
-  EarthPoint ep(37.391808,-122.070826);
+  EarthPoint ep(51.5058903,-0.08601799999);
   std::string str((std::istreambuf_iterator<char>(t)),
                  std::istreambuf_iterator<char>());
   MapManager mm(str, ep);
