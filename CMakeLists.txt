@@ -13,7 +13,7 @@ option(USE_BZIP2 "Use bzip2" OFF)
 option(USE_GIFLIB "Use GIFLIB" OFF)
 option(USE_AGAST "Use Agast" OFF)
 option(USE_REDSVD "Use REDSVD" OFF)
-option(USE_NANOFLANN "Use naonflann" OFF)
+option(USE_NANOFLANN "Use naonflann" ON)
 
 option(HAVE_NEON "Enable ARM NEON support" OFF)
 option(USE_OPENMP "Compile with OpenMP" OFF)
