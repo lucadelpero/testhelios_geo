@@ -1,0 +1,9 @@
+[submodule "libs/helios"]
+	path = libs/helios
+	url = git@github.com:blippar/helios.git
+[submodule "libs/nucleus"]
+	path = libs/nucleus
+	url = git@github.com:blippar/nucleus.git
+[submodule "libs/external"]
+	path = libs/external
+	url = git@github.com:blippar/external.git
